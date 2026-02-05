@@ -111,3 +111,27 @@ footer p {
   font-size: 0.9rem;
   opacity: 0.9;
 }
+
+/* ===== AMÉLIORATION DE LA LISIBILITÉ ===== */
+
+/* Meilleur espacement des sections */
+section {
+  padding: 3rem 0;
+}
+
+/* Amélioration de la hiérarchie typographique */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+/* Cohérence des conteneurs */
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
