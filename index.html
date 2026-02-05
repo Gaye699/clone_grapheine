@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portfolio Grapheine - Clone de projet" />
-    <title>Grapheine Portfolio - Accueil</title>
+    <meta name="description" content="Portfolio Graphéine - Clone de projet" />
+    <title>Graphéine Portfolio - Accueil</title>
   </head>
   <body>
     <!-- Header -->
     <header>
       <nav class="navbar">
         <div class="container">
-          <h1 class="logo"><a href="/">Grapheine</a></h1>
+          <h1 class="logo"><a href="/">Graphéine</a></h1>
           <ul class="nav-menu">
             <li><a href="/" class="active">Portfolio</a></li>
             <li><a href="/contact.html">Contact</a></li>
@@ -33,7 +33,44 @@
       <section class="portfolio-grid" id="portfolio">
         <div class="container">
           <h3>Nos Projets</h3>
-          <p>La galerie de projets sera développée par le collaborateur</p>
+          
+          <!-- Grille d'images avec lazy loading -->
+          <div class="portfolio-grid">
+            <!-- Exemple d'images - Adaptez selon vos vraies images -->
+            <div class="portfolio-item">
+              <img 
+                data-src="/src/assets/images/00-compagne-animaux-logo-vignette-1920x1181.webp" 
+                alt="Projet 1" 
+                loading="lazy"
+              />
+            </div>
+            
+            <div class="portfolio-item">
+              <img 
+                data-src="/src/assets/images/01_concarneau-logo-cover-1-1-1920x1187.webp" 
+                alt="Projet 2" 
+                loading="lazy"
+              />
+            </div>
+            
+            <div class="portfolio-item">
+              <img 
+                data-src="/src/assets/images/01_concarneau-logo-cover-2-1-1920x1187.webp" 
+                alt="Projet 3" 
+                loading="lazy"
+              />
+            </div>
+            
+            <div class="portfolio-item">
+              <img 
+                data-src="/src/assets/images/01-caramba-culturel-logotype-1-1920x1187.webp" 
+                alt="Projet 4" 
+                loading="lazy"
+              />
+            </div>
+            
+            <!-- Ajoutez autant d'images que vous voulez -->
+          </div>
         </div>
       </section>
     </main>
@@ -41,7 +78,7 @@
     <!-- Footer -->
     <footer>
       <div class="container">
-        <p>&copy; 2024 Grapheine Clone - Projet Git Flow</p>
+        <p>&copy; 2024 Graphéine Clone - Projet Git Flow</p>
       </div>
     </footer>
 
