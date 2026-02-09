@@ -34,18 +34,18 @@ jobs:
     - name: Check build output
       run: |
         if [ ! -d "dist" ]; then
-          echo "❌ Build failed - no dist folder"
+          echo "Build failed - no dist folder"
           exit 1
         fi
-        echo "✅ Build successful"
+        echo "Build successful"
     
     - name: Test HTML files exist
       run: |
         test -f dist/index.html || exit 1
         test -f dist/contact.html || exit 1
-        echo "✅ All HTML files present"
+        echo "All HTML files present"
     
     - name: Run tests
       run: |
         echo "Running tests..."
-        echo "✅ All tests passed!"
+        echo "All tests passed!"
