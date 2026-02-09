@@ -4,47 +4,107 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portfolio Grapheine - Clone de projet" />
-    <title>Grapheine Portfolio - Accueil</title>
+    <meta name="description" content="Portfolio Graphéine - Clone de projet" />
+    <title>Graphéine Portfolio - Accueil</title>
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <nav class="navbar">
-        <div class="container">
-          <h1 class="logo"><a href="/">Grapheine</a></h1>
-          <ul class="nav-menu">
-            <li><a href="/" class="active">Portfolio</a></li>
+    <header id="site-header" class="header">
+      <div class="container">
+        <nav>
+          <div class="brand">
+            <a href="/" aria-label="Accueil">graphéine</a>
+            <span class="tagline">design & stratégie</span>
+          </div>
+          <ul class="nav-list">
+            <li><a href="/" class="active">Work</a></li>
+            <li><a href="#">Expertises</a></li>
+            <li><a href="#">Studio</a></li>
             <li><a href="/contact.html">Contact</a></li>
           </ul>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
-
+ 
     <!-- Main Content -->
-    <main>
-      <section class="hero">
-        <div class="container">
-          <h2>Bienvenue sur notre portfolio</h2>
-          <p class="hero-subtitle">Découvrez nos créations</p>
-        </div>
-      </section>
-
-      <section class="portfolio-grid" id="portfolio">
-        <div class="container">
-          <h3>Nos Projets</h3>
-          <p>La galerie de projets sera développée par le collaborateur</p>
-        </div>
+    <main id="main-content">
+      <section class="gallery">
+        <article class="gallery-item">
+          <img
+            data-src="/src/assets/images/00-compagne-animaux-logo-vignette-1920x1181.webp"
+            alt="Projet 1"
+            loading="lazy"
+          />
+          <div class="overlay">
+            <h3>Projet 1</h3>
+          </div>
+        </article>
+ 
+        <article class="gallery-item large">
+          <img
+            data-src="/src/assets/images/01_concarneau-logo-cover-1-1-1920x1187.webp"
+            alt="Projet 2"
+            loading="lazy"
+          />
+          <div class="overlay">
+            <h3>Projet 2</h3>
+          </div>
+        </article>
+ 
+        <article class="gallery-item tall">
+          <img
+            data-src="/src/assets/images/01_concarneau-logo-cover-2-1-1920x1187.webp"
+            alt="Projet 3"
+            loading="lazy"
+          />
+          <div class="overlay">
+            <h3>Projet 3</h3>
+          </div>
+        </article>
+ 
+        <article class="gallery-item wide">
+          <img
+            data-src="/src/assets/images/01-caramba-culturel-logotype-1-1920x1187.webp"
+            alt="Projet 4"
+            loading="lazy"
+          />
+          <div class="overlay">
+            <h3>Projet 4</h3>
+          </div>
+        </article>
+ 
+        <article class="gallery-item">
+          <img
+            data-src="/src/assets/images/00-branding-logo-mont-saint-michel-monument-france-cover-800.jpg"
+            alt="Projet 5"
+            loading="lazy"
+          />
+          <div class="overlay">
+            <h3>Projet 5</h3>
+          </div>
+        </article>
+ 
+        <article class="gallery-item tall">
+          <img
+            data-src="/src/assets/images/0-identite-chalon-eductation-2560x1575.webp"
+            alt="Projet 6"
+            loading="lazy"
+          />
+          <div class="overlay">
+            <h3>Projet 6</h3>
+          </div>
+        </article>
       </section>
     </main>
-
+ 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
       <div class="container">
-        <p>&copy; 2024 Grapheine Clone - Projet Git Flow</p>
+        <p>© graphéine — Tous droits réservés</p>
       </div>
     </footer>
-
+ 
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
+ 
