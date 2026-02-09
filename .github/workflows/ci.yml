@@ -49,8 +49,3 @@ jobs:
       run: |
         echo "Running tests..."
         echo "All tests passed!"
-
-    - name: Run tests
-      run: |
-        echo "Running tests..."
-        exit 1  # Force l'échec pour vérifier que le pipeline échoue correctement
