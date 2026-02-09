@@ -2,6 +2,7 @@
 
 .contact-page {
   background: #000;
+  padding-top: 4rem;
 }
 
 /* ===== HEADER DARK ===== */
@@ -9,9 +10,7 @@
   background-color: #000;
   color: #fff;
   padding: 1.5rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+  position: relative;
 }
 
 .container-fluid {
