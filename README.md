@@ -2,7 +2,7 @@
 
 ## 📝 Description
 Clone du portfolio Grapheine réalisé dans le cadre d'un projet Git Flow et Intégration Continue.
-Projet créé avec **Vite** pour une expérience de développement moderne.
+Projet créé avec Vite pour une expérience de développement moderne.
 
 ## 👥 Membres du binôme
 - **[Votre Nom]** - Page Contact, Responsive, Assets, Architecture
