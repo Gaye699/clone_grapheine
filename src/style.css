@@ -1,10 +1,9 @@
-/* ===== RESET & BASE ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+ 
 :root {
   --primary-color: #000;
   --secondary-color: #333;
@@ -14,14 +13,14 @@
   --gray-medium: #ddd;
   --transition: all 0.3s ease;
 }
-
+ 
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--bg-color);
 }
-
+ 
 /* ===== CONTAINER ===== */
 .container {
   max-width: 1200px;
@@ -29,7 +28,7 @@ body {
   padding: 0 2rem;
   width: 100%;
 }
-
+ 
 /* ===== HEADER ===== */
 .header {
   position: fixed;
@@ -40,7 +39,7 @@ body {
   color: #fff;
   transition: background 0.4s ease, color 0.4s ease;
 }
-
+ 
 .header nav {
   display: flex;
   align-items: center;
@@ -48,26 +47,26 @@ body {
   gap: 2rem;
   padding: 1rem 0;
 }
-
+ 
 .brand {
   display: flex;
   flex-direction: column;
 }
-
+ 
 .brand a {
   font-size: 1.125rem;
   font-weight: 700;
   color: inherit;
   text-decoration: none;
 }
-
+ 
 .tagline {
   font-size: 0.875rem;
   color: inherit;
   opacity: 0.85;
   margin-top: 2px;
 }
-
+ 
 .nav-list {
   list-style: none;
   display: flex;
@@ -76,7 +75,7 @@ body {
   padding: 0;
   align-items: center;
 }
-
+ 
 .nav-list a {
   text-decoration: none;
   color: inherit;
@@ -84,37 +83,37 @@ body {
   letter-spacing: 0.01em;
   opacity: 0.9;
 }
-
+ 
 .nav-list a:hover,
 .nav-list a.active {
   opacity: 1;
 }
-
+ 
 @media (max-width: 768px) {
   .header nav {
     gap: 1rem;
   }
-
+ 
   .brand a {
     font-size: 1rem;
   }
-
+ 
   .nav-list {
     gap: 0.75rem;
   }
 }
-
+ 
 .header.is-light {
   background: #fff;
   color: #000;
 }
-
+ 
 /* ===== MAIN CONTENT ===== */
 main {
   min-height: 70vh;
   padding-top: 96px;
 }
-
+ 
 /* ===== GALLERY ===== */
 .gallery {
   display: grid;
@@ -123,7 +122,7 @@ main {
   gap: 24px;
   padding: 3rem;
 }
-
+ 
 .gallery-item {
   grid-column: span 4;
   grid-row: span 4;
@@ -135,7 +134,7 @@ main {
   transform: translateY(40px) scale(0.96);
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
-
+ 
 .gallery-item img {
   width: 100%;
   height: 100%;
@@ -143,27 +142,27 @@ main {
   display: block;
   transition: transform 0.6s ease;
 }
-
+ 
 .gallery-item:first-child {
   grid-column: span 12;
   grid-row: span 6;
 }
-
+ 
 .gallery-item.large {
   grid-column: span 6;
   grid-row: span 6;
 }
-
+ 
 .gallery-item.tall {
   grid-column: span 4;
   grid-row: span 6;
 }
-
+ 
 .gallery-item.wide {
   grid-column: span 8;
   grid-row: span 4;
 }
-
+ 
 .overlay {
   position: absolute;
   inset: 0;
@@ -178,11 +177,11 @@ main {
   opacity: 0;
   transition: opacity 0.4s ease;
 }
-
+ 
 .gallery-item:hover .overlay {
   opacity: 1;
 }
-
+ 
 .overlay h3 {
   font-size: 1.2rem;
   font-weight: 500;
@@ -191,26 +190,26 @@ main {
   transition: transform 0.4s ease;
   color: #fff;
 }
-
+ 
 .gallery-item:hover h3 {
   transform: translateY(0);
 }
-
+ 
 .gallery-item:hover img {
   transform: scale(1.05);
 }
-
+ 
 .gallery-item.is-visible {
   opacity: 1;
   transform: translateY(0) scale(1);
 }
-
+ 
 @media (max-width: 1200px) {
   .gallery {
     grid-template-columns: repeat(8, 1fr);
   }
 }
-
+ 
 @media (max-width: 900px) {
   .gallery {
     grid-template-columns: repeat(6, 1fr);
@@ -219,7 +218,7 @@ main {
     grid-auto-rows: 70px;
   }
 }
-
+ 
 @media (max-width: 600px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
@@ -227,7 +226,7 @@ main {
     gap: 12px;
     grid-auto-rows: 120px;
   }
-
+ 
   .gallery-item,
   .gallery-item.large,
   .gallery-item.tall,
@@ -235,13 +234,13 @@ main {
     grid-column: span 2;
     grid-row: auto;
   }
-
+ 
   .gallery-item:first-child {
     grid-column: span 2;
     grid-row: span 1;
   }
 }
-
+ 
 @media (max-width: 400px) {
   .gallery {
     grid-template-columns: 1fr;
@@ -249,7 +248,7 @@ main {
     gap: 8px;
     grid-auto-rows: 160px;
   }
-
+ 
   .gallery-item,
   .gallery-item.large,
   .gallery-item.tall,
@@ -258,7 +257,7 @@ main {
     grid-row: auto;
   }
 }
-
+ 
 /* ===== FOOTER ===== */
 .footer {
   padding: 3rem 2rem;
@@ -269,7 +268,7 @@ main {
   height: 40vh;
   font-weight: 600;
 }
-
+ 
 /* ===== TYPOGRAPHY ===== */
 h1,
 h2,
@@ -280,8 +279,9 @@ h6 {
   line-height: 1.2;
   margin-bottom: 1rem;
 }
-
+ 
 p {
   margin-bottom: 1rem;
   line-height: 1.8;
 }
+ 
