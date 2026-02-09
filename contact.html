@@ -1,43 +1,140 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Contactez Grapheine" />
-    <title>Grapheine Portfolio - Contact</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <nav class="navbar">
-        <div class="container">
-          <h1 class="logo"><a href="/">Grapheine</a></h1>
-          <ul class="nav-menu">
-            <li><a href="/">Portfolio</a></li>
-            <li><a href="/contact.html" class="active">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+    <meta name="description" content="Contactez Graphéine" />
+    <title>Graphéine - Contact</title>
+</head>
+<body class="contact-page">
+    <header class="header-dark">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <h1 class="logo">
+                    <a href="/">Contact</a>
+                </h1>
+                <ul class="nav-menu">
+                    <li><a href="#quote" class="nav-link-red">Request a quote</a></li>
+                    <li><a href="#internships">Internships</a></li>
+                    <li><a href="#jobs">Jobs</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <!-- Main Content -->
     <main class="contact-main">
-      <section class="contact-hero">
-        <div class="container">
-          <h2>Contactez-nous</h2>
-          <p class="contact-intro">Cette page sera développée dans la prochaine issue</p>
-        </div>
-      </section>
+        <section class="contact-hero-dark">
+            <div class="container-centered">
+                <h2 class="hero-title">We're always here<br>to listen.</h2>
+                
+                <div class="contact-info-grid">
+                    <div class="info-block">
+                        <h3 class="info-label">Phone</h3>
+                        <a href="tel:+33698723185" class="info-value">+33 (0)6 98 72 31 85</a>
+                    </div>
+                    
+                    <div class="info-block">
+                        <h3 class="info-label">Address</h3>
+                        <div class="address-group">
+                            <div class="address-item">
+                                <p class="info-value">Graphéine Lyon</p>
+                                <p class="info-detail">13 Rue Sainte-Catherine<br>69001 Lyon, France</p>
+                                <a href="#" class="get-there">Get there</a>
+                            </div>
+                            <div class="address-item">
+                                <p class="info-value">Graphéine Paris</p>
+                                <p class="info-detail">2 rue des Minimes<br>75003 Paris, France</p>
+                                <a href="#" class="get-there">Get there</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quote-section" id="quote">
+            <div class="container-centered">
+                <h2 class="section-title">Request a quote</h2>
+                <p class="section-intro">
+                    Would you like to request a quote for the creation of a logo, a visual identity, or a graphic 
+                    design project? Please fill out the form below, or contact us directly at 
+                    <a href="mailto:devis@grapheine.com">devis@grapheine.com</a>.
+                </p>
+
+                <form id="contact-form" class="quote-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstname">First name *</label>
+                            <input type="text" id="firstname" name="firstname" placeholder="First name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Name" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group-full">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company" placeholder="Company" />
+                    </div>
+
+                    <div class="form-group-full">
+                        <label for="message">Your project *</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your project..." required></textarea>
+                    </div>
+
+                    <div class="form-group-full">
+                        <label>Attachment (PDF, JPG, PNG - max 10MB)</label>
+                        <div class="file-upload-area">
+                            <label for="attachment" class="file-upload-content">
+                                <span class="upload-icon">+</span>
+                                <p>Click to upload or drag and drop</p>
+                                <p class="upload-limit">Maximum file size: 10 MB</p>
+                                <input type="file" id="attachment" name="attachment" hidden />
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-submit-red">Send Request</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="recruitment-section" id="jobs">
+            <div class="container-centered">
+                <div class="recruitment-text">
+                    <p>Looking for a job or an internship? <br>
+                    Please send your portfolio to <a href="mailto:jobs@grapheine.com">jobs@grapheine.com</a></p>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <p>&copy; 2024 Grapheine Clone - Projet Git Flow</p>
-      </div>
+    <footer class="footer-red">
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <a href="#" class="footer-link">Agencies</a>
+                <a href="#" class="footer-link">Expertise</a>
+                <a href="#" class="footer-link">Journal</a>
+                <a href="#" class="footer-link active">Contact</a>
+            </nav>
+
+            <div class="footer-text-grid">
+                <div class="footer-text-block">
+                    <p>Graphéine is an independent strategic brand design agency based in Paris and Lyon.</p>
+                </div>
+                <div class="footer-text-block">
+                    <p>© 2026 Graphéine. All rights reserved. <br> Made with passion for design.</p>
+                </div>
+            </div>
+
+            <div class="footer-logo">
+                <h1>graphéine</h1>
+            </div>
+        </div>
     </footer>
 
-    <script type="module" src="/src/main.js"></script>
-  </body>
+     <script type="module" src="/src/main.js"></script>
+</body>
 </html>

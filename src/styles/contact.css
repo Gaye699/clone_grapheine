@@ -1,0 +1,397 @@
+/* ===== PAGE CONTACT - GRAPHÉINE STYLE ===== */
+
+.contact-page {
+  background: #000;
+}
+
+/* ===== HEADER DARK ===== */
+.header-dark {
+  background-color: #000;
+  color: #fff;
+  padding: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container-fluid {
+  max-width: 100%;
+  padding: 0 3rem;
+}
+
+.header-dark .navbar .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-dark .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+.header-dark .nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.header-dark .nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.95rem;
+  transition: opacity 0.3s;
+}
+
+.header-dark .nav-menu a:hover {
+  opacity: 0.7;
+}
+
+.nav-link-red {
+  color: #FF3B3B !important;
+}
+
+/* ===== HERO SECTION DARK ===== */
+.contact-hero-dark {
+  background-color: #000;
+  color: #fff;
+  padding: 5rem 0 8rem;
+}
+
+.container-centered {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero-title {
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 4rem;
+  letter-spacing: -2px;
+}
+
+.contact-info-grid {
+  display: grid;
+  gap: 3rem;
+}
+
+.info-block {
+  border-top: 1px solid #333;
+  padding-top: 2rem;
+}
+
+.info-label {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #999;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.info-value {
+  font-size: 1.1rem;
+  color: #FF3B3B;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.info-value:hover {
+  opacity: 0.8;
+}
+
+.address-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.address-item .info-value {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.info-detail {
+  font-size: 0.95rem;
+  color: #999;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.get-there {
+  color: #FF3B3B;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.get-there:hover {
+  text-decoration: underline;
+}
+
+/* ===== QUOTE SECTION ===== */
+.quote-section {
+  background: #fff;
+  padding: 6rem 0;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  letter-spacing: -1px;
+}
+
+.section-intro {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.section-intro a {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* ===== FORMULAIRE ===== */
+.quote-form {
+  margin-top: 3rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group-full {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.form-group label,
+.form-group-full label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group-full input,
+.form-group-full textarea {
+  padding: 0.9rem;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  font-size: 0.95rem;
+  font-family: inherit;
+  background: #fafafa;
+  transition: all 0.3s;
+}
+
+.form-group input:focus,
+.form-group-full input:focus,
+.form-group-full textarea:focus {
+  outline: none;
+  border-color: #000;
+  background: #fff;
+}
+
+.form-group-full textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* ===== FILE UPLOAD ===== */
+.file-upload-area {
+  margin-top: 0.5rem;
+}
+
+.file-upload-content {
+  border: 2px dashed #ddd;
+  padding: 3rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: #fafafa;
+}
+
+.file-upload-content:hover {
+  border-color: #000;
+  background: #fff;
+}
+
+.upload-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.file-upload-content p {
+  margin: 0.3rem 0;
+  color: #666;
+}
+
+.upload-limit {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+/* ===== SUBMIT BUTTON ===== */
+.btn-submit-red {
+  background-color: #FF3B3B;
+  color: #fff;
+  padding: 1.1rem 2.5rem;
+  border: none;
+  border-radius: 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 2rem;
+  text-transform: capitalize;
+}
+
+.btn-submit-red:hover {
+  background-color: #E62E2E;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 59, 59, 0.3);
+}
+
+/* ===== RECRUITMENT SECTION ===== */
+.recruitment-section {
+  background: #fff;
+  padding: 4rem 0 6rem;
+  border-top: 1px solid #eee;
+}
+
+.recruitment-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #666;
+}
+
+.recruitment-text a {
+  color: #FF3B3B;
+  text-decoration: none;
+}
+
+.recruitment-text a:hover {
+  text-decoration: underline;
+}
+
+/* ===== FOOTER RED ===== */
+.footer-red {
+  background-color: #FF3B3B;
+  color: #fff;
+  padding: 4rem 0;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  width: 100%;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 300;
+  transition: opacity 0.3s;
+  letter-spacing: -1px;
+}
+
+.footer-link:hover {
+  opacity: 0.7;
+}
+
+.footer-link.active {
+  opacity: 1;
+}
+
+.footer-text-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 4rem;
+  max-width: 1200px;
+}
+
+.footer-text-block p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #fff;
+  opacity: 0.95;
+}
+
+.footer-logo {
+  margin-top: 4rem;
+}
+
+.footer-logo h1 {
+  font-size: 12rem;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: -8px;
+  line-height: 1;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .footer-text-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-link {
+    font-size: 2rem;
+  }
+
+  .footer-logo h1 {
+    font-size: 6rem;
+  }
+
+  .container-fluid {
+    padding: 0 1.5rem;
+  }
+}
