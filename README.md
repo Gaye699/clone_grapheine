@@ -1,25 +1,25 @@
 # Grapheine Portfolio Clone
 
-## 📝 Description
+## Description
 Clone du portfolio Grapheine réalisé dans le cadre d'un projet Git Flow et Intégration Continue.
 Projet créé avec **Vite** pour une expérience de développement moderne.
 
-## 👥 Membres du binôme
+## Membres du binôme
 - **Mouhamed Gaye** - Page Contact, Responsive, Assets, Architecture
 - **Ndombi-Gnele Franck Allan** - Header, Footer, Page Portfolio
 
-## 🎨 Inspiration
+## Inspiration
 - Portfolio : https://grapheine.com/portfolio/
 - Contact : https://grapheine.com/contact/
 
-## 🛠️ Technologies
+## Technologies
 - **Vite** - Build tool et dev server
 - HTML5
 - CSS3 (Variables CSS, Flexbox, Grid)
 - JavaScript (ES6+, Modules)
 - GitHub Actions (CI/CD)
 
-## 📂 Structure du projet
+## Structure du projet
 ```
 grapheine-portfolio-clone/
 ├── public/              # Fichiers statiques
@@ -37,7 +37,7 @@ grapheine-portfolio-clone/
 └── vite.config.js       # Configuration Vite
 ```
 
-## 🚀 Installation et développement
+## Installation et développement
 
 ### Prérequis
 - Node.js (v18 ou supérieur)
@@ -70,14 +70,14 @@ Les fichiers optimisés seront dans le dossier `dist/`
 npm run preview
 ```
 
-## 🔄 Git Workflow
+## Git Workflow
 Ce projet suit strictement le modèle **Git Flow** :
 - **main** : version stable / production
 - **develop** : branche de développement
 - **feature/** : développement de fonctionnalités
 - **release/** : préparation des versions
 
-### ⚠️ Points importants du projet
+### Points importants du projet
 ✅ **Utilisation de Git Stash** : Sera documenté lors du développement
 
 ✅ **Résolution de conflit Git** : Sera documenté lors de la collaboration
