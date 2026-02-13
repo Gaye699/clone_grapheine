@@ -5,8 +5,8 @@ Clone du portfolio Grapheine réalisé dans le cadre d'un projet Git Flow et Int
 Projet créé avec **Vite** pour une expérience de développement moderne.
 
 ## 👥 Membres du binôme
-- **[Votre Nom]** - Page Contact, Responsive, Assets, Architecture
-- **[Nom Collaborateur]** - Header, Footer, Page Portfolio
+- **Mouhamed Gaye** - Page Contact, Responsive, Assets, Architecture
+- **Ndombi-Gnele Franck Allan** - Header, Footer, Page Portfolio
 
 ## 🎨 Inspiration
 - Portfolio : https://grapheine.com/portfolio/
